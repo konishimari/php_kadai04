@@ -1,0 +1,26 @@
+.jumbotron {
+    padding: 15px 15px;
+}
+.container{
+    width: 100%;
+}
+
+th,td {
+    border: solid 2px;          /* 枠線指定 */
+}
+     
+table {
+    border-collapse:  collapse; /* セルの線を重ねる */
+}
+     
+th {
+    width:  500px;              /* 幅指定 */
+    height: 80px;               /* 高さ指定 */
+    padding: 10px;
+} 
+
+td{
+   padding: 10px;
+   
+}
+ 
