@@ -42,7 +42,6 @@ if($pw){
   //Login失敗時(Logoutを経由：リダイレクト)
   redirect("login.php");
 }
-
 exit();
 
 
