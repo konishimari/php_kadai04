@@ -6,6 +6,7 @@
 //insert.phpを修正（関数化）してからselect.phpを開く！！
 $id = $_GET["id"];
 include("funcs.php");
+sschk();
 $pdo = db_conn();
 
 //２．データ登録SQL作成

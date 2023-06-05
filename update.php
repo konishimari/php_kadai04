@@ -20,6 +20,7 @@ $id     = $_POST["id"];
 
 //2. DB接続します
 include("funcs.php");
+sschk();
 
 //３．データ登録SQL作成
 $pdo = db_conn();

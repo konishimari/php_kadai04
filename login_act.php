@@ -33,7 +33,7 @@ $val = $stmt->fetch();         //1レコードだけ取得する方法
 $pw = password_verify($lpw, $val["lpw"]);
 if($pw){ 
   //Login成功時
-  $_SESSION["chk_ssid"]  = session_id();
+  $_SESSION["chk_ssid"]  = session_id(); //セッションハイジャック防止のための１行
   $_SESSION["kanri_flg"] = $val['kanri_flg'];
   $_SESSION["name"]      = $val['name'];
   //Login成功時（リダイレクト）
